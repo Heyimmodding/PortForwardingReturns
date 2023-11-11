@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3724753978
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: returnsassets
+      Dependencies: {}

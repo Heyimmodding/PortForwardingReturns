@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1075195247
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea69873737c5e98427d08bbd9e32f8c0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ReturnsAssets/Skill Icons/Knifetemp.png
+Dependencies: []
