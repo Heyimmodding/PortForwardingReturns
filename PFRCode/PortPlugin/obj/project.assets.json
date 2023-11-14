@@ -137,6 +137,23 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "R2API.Colors/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "BepInEx.Core": "5.4.19",
+          "MMHOOK.RoR2": "2022.4.19",
+          "R2API.Core": "5.0.8",
+          "RiskOfRain2.GameLibs": "1.2.4-r.0",
+          "RoR2BepInExPack": "1.7.0",
+          "UnityEngine.Modules": "2019.4.26"
+        },
+        "compile": {
+          "lib/netstandard2.0/R2API.Colors.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/R2API.Colors.dll": {}
+        }
+      },
       "R2API.ContentManagement/1.0.1": {
         "type": "package",
         "dependencies": {
@@ -167,6 +184,39 @@
         },
         "runtime": {
           "lib/netstandard2.0/R2API.Core.dll": {}
+        }
+      },
+      "R2API.DamageType/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "BepInEx.Core": "5.4.19",
+          "MMHOOK.RoR2": "2022.4.19",
+          "R2API.Core": "5.0.6",
+          "RiskOfRain2.GameLibs": "1.2.4-r.0",
+          "UnityEngine.Modules": "2019.4.26"
+        },
+        "compile": {
+          "lib/netstandard2.0/R2API.DamageType.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/R2API.DamageType.dll": {}
+        }
+      },
+      "R2API.Dot/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "BepInEx.Core": "5.4.19",
+          "MMHOOK.RoR2": "2022.4.19",
+          "R2API.Core": "5.0.8",
+          "RiskOfRain2.GameLibs": "1.2.4-r.0",
+          "RoR2BepInExPack": "1.7.0",
+          "UnityEngine.Modules": "2019.4.26"
+        },
+        "compile": {
+          "lib/netstandard2.0/R2API.Dot.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/R2API.Dot.dll": {}
         }
       },
       "R2API.Items/1.0.3": {
@@ -202,6 +252,22 @@
         },
         "runtime": {
           "lib/netstandard2.0/R2API.Language.dll": {}
+        }
+      },
+      "R2API.RecalculateStats/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "BepInEx.Core": "5.4.19",
+          "MMHOOK.RoR2": "2022.4.19",
+          "R2API.Core": "5.0.6",
+          "RiskOfRain2.GameLibs": "1.2.4-r.0",
+          "UnityEngine.Modules": "2019.4.26"
+        },
+        "compile": {
+          "lib/netstandard2.0/R2API.RecalculateStats.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/R2API.RecalculateStats.dll": {}
         }
       },
       "RiskOfRain2.GameLibs/1.2.4-r.0": {
@@ -1041,6 +1107,19 @@
         "netstandard.library.nuspec"
       ]
     },
+    "R2API.Colors/1.0.1": {
+      "sha512": "gQiTKJ1Reh4z8FEISiKEHoLPoYr8D8SnqH0rUtUX1KlzYjSKT5pWtrgt/xJWm6r13l2nixX2Dta7Jp/2TOMZxg==",
+      "type": "package",
+      "path": "r2api.colors/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/R2API.Colors.dll",
+        "lib/netstandard2.0/R2API.Colors.xml",
+        "r2api.colors.1.0.1.nupkg.sha512",
+        "r2api.colors.nuspec"
+      ]
+    },
     "R2API.ContentManagement/1.0.1": {
       "sha512": "EjiU5+2JsxB2UiJ7lX9MKfvdU113trBgbrhfSSrQFJysFg6Ug7PuiavPHlIofyTDCjjNeqzDnmz9x2RyDB4/Dw==",
       "type": "package",
@@ -1067,6 +1146,32 @@
         "r2api.core.nuspec"
       ]
     },
+    "R2API.DamageType/1.0.4": {
+      "sha512": "rtaQ5h7JJsuYxmfmkDTXKc0lt1caO0Z9tKuiSlrcidSZWVufkvz1C/O7/Hew6uKPbEqKFpfzY5U3F2qjOhPIHg==",
+      "type": "package",
+      "path": "r2api.damagetype/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/R2API.DamageType.dll",
+        "lib/netstandard2.0/R2API.DamageType.xml",
+        "r2api.damagetype.1.0.4.nupkg.sha512",
+        "r2api.damagetype.nuspec"
+      ]
+    },
+    "R2API.Dot/1.0.1": {
+      "sha512": "oDLxp2bfM5yP46KtXBNjI6FskxmV25qw9WQw1j/BebZ35r5v2x1dq6Gd8AhUlff094ud3p7fFIzs852EM69xxw==",
+      "type": "package",
+      "path": "r2api.dot/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/R2API.Dot.dll",
+        "lib/netstandard2.0/R2API.Dot.xml",
+        "r2api.dot.1.0.1.nupkg.sha512",
+        "r2api.dot.nuspec"
+      ]
+    },
     "R2API.Items/1.0.3": {
       "sha512": "BjrxN6yAO8a/aJdD4ibQyf8cknvalEG494UrWQKKwGU6/OECcZm2b4hio72TKVpPPCs/S8lTHBHsPXEcHL/r9w==",
       "type": "package",
@@ -1091,6 +1196,19 @@
         "lib/netstandard2.0/R2API.Language.xml",
         "r2api.language.1.0.1.nupkg.sha512",
         "r2api.language.nuspec"
+      ]
+    },
+    "R2API.RecalculateStats/1.2.0": {
+      "sha512": "/s1JPeBMaY5V8DhIezBbgm2gzEHof217ZGLRuoSToIy/ZcatYfc7L5C2uGH/ZqDYgp9tBi9H971p9GAmo63S6Q==",
+      "type": "package",
+      "path": "r2api.recalculatestats/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/R2API.RecalculateStats.dll",
+        "lib/netstandard2.0/R2API.RecalculateStats.xml",
+        "r2api.recalculatestats.1.2.0.nupkg.sha512",
+        "r2api.recalculatestats.nuspec"
       ]
     },
     "RiskOfRain2.GameLibs/1.2.4-r.0": {
@@ -3000,8 +3118,12 @@
       "BepInEx.Core >= 5.4.21",
       "MMHOOK.RoR2 >= 2022.9.20",
       "NETStandard.Library >= 2.0.3",
+      "R2API.Colors >= 1.0.1",
+      "R2API.DamageType >= 1.0.4",
+      "R2API.Dot >= 1.0.1",
       "R2API.Items >= 1.0.*",
       "R2API.Language >= 1.0.*",
+      "R2API.RecalculateStats >= 1.2.0",
       "RiskOfRain2.GameLibs >= 1.2.4-r.0",
       "UnityEngine.Modules >= 2019.4.26"
     ]
@@ -3013,17 +3135,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mincr\\OneDrive\\Documents\\Mods\\PortForwardingReturns\\PortPlugin\\PFRplugin.csproj",
-      "projectName": "PFRplugin",
-      "projectPath": "C:\\Users\\mincr\\OneDrive\\Documents\\Mods\\PortForwardingReturns\\PortPlugin\\PFRplugin.csproj",
+      "projectUniqueName": "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFR.csproj",
+      "projectName": "PFR",
+      "projectPath": "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFR.csproj",
       "packagesPath": "C:\\Users\\mincr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mincr\\OneDrive\\Documents\\Mods\\PortForwardingReturns\\PortPlugin\\obj\\",
+      "outputPath": "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mincr\\OneDrive\\Documents\\Mods\\PortForwardingReturns\\NuGet.Config",
+        "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\NuGet.Config",
         "C:\\Users\\mincr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3074,6 +3196,18 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "R2API.Colors": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "R2API.DamageType": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          },
+          "R2API.Dot": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "R2API.Items": {
             "target": "Package",
             "version": "[1.0.*, )"
@@ -3081,6 +3215,10 @@
           "R2API.Language": {
             "target": "Package",
             "version": "[1.0.*, )"
+          },
+          "R2API.RecalculateStats": {
+            "target": "Package",
+            "version": "[1.2.0, )"
           },
           "RiskOfRain2.GameLibs": {
             "target": "Package",

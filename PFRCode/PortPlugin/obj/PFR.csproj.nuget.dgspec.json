@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFRplugin.csproj": {}
+    "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFRplugin.csproj": {
+    "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFRplugin.csproj",
-        "projectName": "PFRplugin",
-        "projectPath": "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFRplugin.csproj",
+        "projectUniqueName": "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFR.csproj",
+        "projectName": "PFR",
+        "projectPath": "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\PFR.csproj",
         "packagesPath": "C:\\Users\\mincr\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mincr\\OneDrive\\Documents\\Repos\\PortForwardingReturns\\PFRCode\\PortPlugin\\obj\\",
         "projectStyle": "PackageReference",
