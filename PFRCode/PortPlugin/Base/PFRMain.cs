@@ -6,7 +6,7 @@ using UnityEngine.AddressableAssets;
 using Ivyl;
 using BepInEx.Logging;
 
-namespace Returns
+namespace PFR
 {
 
     [BepInDependency(DamageAPI.PluginGUID)]
@@ -32,16 +32,11 @@ namespace Returns
         }
 
         [PluginComponent(typeof(PFRMain), PluginComponent.Flags.ConfigAll)]
-        public abstract class Behavior : MonoBehaviour
+        public abstract class PFRBehavior : MonoBehaviour
         {
-            public static ManualLogSource PFRlog
-            {
-                get
-                {
-                    return BaseUnityPlugin<PFRMain>.Instance.Logger;
-                }
-                
-            }
+            public static AssetBundle Assets => Instance.PFRassets;
+            public static ExpansionPackage Expansion => Instance.PFRexpansion;      
+            public static ManualLogSource PFRlog=> Instance.Logger;
         }
     }
     

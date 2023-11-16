@@ -1,0 +1,12 @@
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\bin\Debug\netstandard2.0\PFR.deps.json
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\bin\Debug\netstandard2.0\PFR.dll
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\bin\Debug\netstandard2.0\PFR.pdb
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\bin\Debug\netstandard2.0\Ivyl.dll
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\obj\Debug\netstandard2.0\PFR.csproj.AssemblyReference.cache
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\obj\Debug\netstandard2.0\PFR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\obj\Debug\netstandard2.0\PFR.AssemblyInfoInputs.cache
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\obj\Debug\netstandard2.0\PFR.AssemblyInfo.cs
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\obj\Debug\netstandard2.0\PFR.csproj.CoreCompileInputs.cache
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\obj\Debug\netstandard2.0\PFR.csproj.CopyComplete
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\obj\Debug\netstandard2.0\PFR.dll
+C:\Users\mincr\OneDrive\Documents\Repos\PortForwardingReturns\PFRCode\PortPlugin\obj\Debug\netstandard2.0\PFR.pdb
